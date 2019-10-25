@@ -1,0 +1,37 @@
+/*
+    Theme Name: HTML5 Blank Slate
+    Theme URI: https://github.com/FernE97/html5-blank-slate
+    Description: Foundation 6 starter theme
+    Author: Eric Fernandez
+    Author URI: https://hopsie.com/
+    Version: 3.6.0
+    License: WTFPL
+    License URI: http://sam.zoy.org/wtfpl/
+    Tags: blank, html5, sass, responsive
+*/
+
+.header {
+  position: relative;
+  height: 95vh;
+  background-image: linear-gradient(to right bottom, rgba(0, 149, 200, 0.8), rgba(0, 149, 200, 0.8)), url(../img/hero2.jpg);
+  background-size: cover;
+  background-position: center;
+  clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%); }
+  @media (min-resolution: 192dpi) and (min-width: 37.5em), (min-width: 125em) {
+    .header {
+      background-image: linear-gradient(to right bottom, rgba(0, 149, 200, 0.8), rgba(0, 149, 200, 0.8)), url(../img/hero.jpg); } }
+  @media (max-width: 37.5em) {
+    .header {
+      clip-path: polygon(0 0, 100% 0, 100% 85vh, 0 100%); } }
+  .header__logo-box {
+    position: absolute;
+    top: 4rem;
+    left: 4rem; }
+  .header__logo {
+    height: 3.5rem; }
+  .header__text-box {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center; }
